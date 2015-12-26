@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0CFA4A1C2E810500A649F3 /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CFA491C2E810500A649F3 /* FiveViewController.m */; };
+		7A0CFA4C1C2E904C00A649F3 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 7A0CFA4B1C2E904C00A649F3 /* File */; };
 		7A3E75BD1C2E76A8001176B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3E75BC1C2E76A8001176B7 /* main.m */; };
 		7A3E75C01C2E76A8001176B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3E75BF1C2E76A8001176B7 /* AppDelegate.m */; };
 		7A3E75C21C2E76A8001176B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3E75C11C2E76A8001176B7 /* Images.xcassets */; };
@@ -25,6 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A0CFA481C2E810500A649F3 /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		7A0CFA491C2E810500A649F3 /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		7A0CFA4B1C2E904C00A649F3 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 		7A3E75B71C2E76A8001176B7 /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3E75BB1C2E76A8001176B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A3E75BC1C2E76A8001176B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -78,6 +83,9 @@
 			children = (
 				7A3E75BE1C2E76A8001176B7 /* AppDelegate.h */,
 				7A3E75BF1C2E76A8001176B7 /* AppDelegate.m */,
+				7A0CFA481C2E810500A649F3 /* FiveViewController.h */,
+				7A0CFA491C2E810500A649F3 /* FiveViewController.m */,
+				7A0CFA4B1C2E904C00A649F3 /* File */,
 				7A3E75C11C2E76A8001176B7 /* Images.xcassets */,
 				7A3E75C31C2E76A8001176B7 /* LaunchScreen.xib */,
 				7A3E75BA1C2E76A8001176B7 /* Supporting Files */,
@@ -193,6 +201,7 @@
 			files = (
 				7A3E75C51C2E76A8001176B7 /* LaunchScreen.xib in Resources */,
 				7A3E75C21C2E76A8001176B7 /* Images.xcassets in Resources */,
+				7A0CFA4C1C2E904C00A649F3 /* File in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0CFA4A1C2E810500A649F3 /* FiveViewController.m in Sources */,
 				7A3E75C01C2E76A8001176B7 /* AppDelegate.m in Sources */,
 				7A3E75BD1C2E76A8001176B7 /* main.m in Sources */,
 			);
@@ -394,6 +404,7 @@
 				7A3E75D61C2E76A8001176B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A3E75D71C2E76A8001176B7 /* Build configuration list for PBXNativeTarget "GitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +413,7 @@
 				7A3E75D91C2E76A8001176B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
