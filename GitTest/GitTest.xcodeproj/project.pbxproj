@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A04E5971C2E80DC00CBFDAD /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A04E5961C2E80DC00CBFDAD /* TwoViewController.m */; };
 		7A3E75BD1C2E76A8001176B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3E75BC1C2E76A8001176B7 /* main.m */; };
 		7A3E75C01C2E76A8001176B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3E75BF1C2E76A8001176B7 /* AppDelegate.m */; };
 		7A3E75C21C2E76A8001176B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3E75C11C2E76A8001176B7 /* Images.xcassets */; };
@@ -25,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A04E5951C2E80DC00CBFDAD /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		7A04E5961C2E80DC00CBFDAD /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 		7A3E75B71C2E76A8001176B7 /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3E75BB1C2E76A8001176B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A3E75BC1C2E76A8001176B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -78,6 +81,8 @@
 			children = (
 				7A3E75BE1C2E76A8001176B7 /* AppDelegate.h */,
 				7A3E75BF1C2E76A8001176B7 /* AppDelegate.m */,
+				7A04E5951C2E80DC00CBFDAD /* TwoViewController.h */,
+				7A04E5961C2E80DC00CBFDAD /* TwoViewController.m */,
 				7A3E75C11C2E76A8001176B7 /* Images.xcassets */,
 				7A3E75C31C2E76A8001176B7 /* LaunchScreen.xib */,
 				7A3E75BA1C2E76A8001176B7 /* Supporting Files */,
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A04E5971C2E80DC00CBFDAD /* TwoViewController.m in Sources */,
 				7A3E75C01C2E76A8001176B7 /* AppDelegate.m in Sources */,
 				7A3E75BD1C2E76A8001176B7 /* main.m in Sources */,
 			);
@@ -394,6 +400,7 @@
 				7A3E75D61C2E76A8001176B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A3E75D71C2E76A8001176B7 /* Build configuration list for PBXNativeTarget "GitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +409,7 @@
 				7A3E75D91C2E76A8001176B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
