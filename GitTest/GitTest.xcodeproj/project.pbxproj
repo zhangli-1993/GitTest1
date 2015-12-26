@@ -13,6 +13,7 @@
 		7A3E75C21C2E76A8001176B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3E75C11C2E76A8001176B7 /* Images.xcassets */; };
 		7A3E75C51C2E76A8001176B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A3E75C31C2E76A8001176B7 /* LaunchScreen.xib */; };
 		7A3E75D11C2E76A8001176B7 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3E75D01C2E76A8001176B7 /* GitTestTests.m */; };
+		7A3E75DC1C2E80CD001176B7 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A3E75DB1C2E80CD001176B7 /* OneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		7A3E75CA1C2E76A8001176B7 /* GitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3E75CF1C2E76A8001176B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A3E75D01C2E76A8001176B7 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		7A3E75DA1C2E80CD001176B7 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		7A3E75DB1C2E80CD001176B7 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +84,13 @@
 			children = (
 				7A3E75BE1C2E76A8001176B7 /* AppDelegate.h */,
 				7A3E75BF1C2E76A8001176B7 /* AppDelegate.m */,
+<<<<<<< HEAD
 				7A04E5951C2E80DC00CBFDAD /* TwoViewController.h */,
 				7A04E5961C2E80DC00CBFDAD /* TwoViewController.m */,
+=======
+				7A3E75DA1C2E80CD001176B7 /* OneViewController.h */,
+				7A3E75DB1C2E80CD001176B7 /* OneViewController.m */,
+>>>>>>> c164e745eb72476ec37f61a1f2ac4eaca501f0be
 				7A3E75C11C2E76A8001176B7 /* Images.xcassets */,
 				7A3E75C31C2E76A8001176B7 /* LaunchScreen.xib */,
 				7A3E75BA1C2E76A8001176B7 /* Supporting Files */,
@@ -215,7 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				7A04E5971C2E80DC00CBFDAD /* TwoViewController.m in Sources */,
+=======
+				7A3E75DC1C2E80CD001176B7 /* OneViewController.m in Sources */,
+>>>>>>> c164e745eb72476ec37f61a1f2ac4eaca501f0be
 				7A3E75C01C2E76A8001176B7 /* AppDelegate.m in Sources */,
 				7A3E75BD1C2E76A8001176B7 /* main.m in Sources */,
 			);
